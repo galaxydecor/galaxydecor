@@ -248,7 +248,11 @@ nav a::before {
 .logo img.logo-desktop {
   width: 12vh;
   position: absolute;
-  left: 5px;
+  /* left: 5px; */
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-125%, -50%);
 }
 .logo h1 {
   font-size: 24px;
@@ -259,7 +263,7 @@ nav a::before {
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-28%, -50%);
 }
 .logo h3 {
   display: none;
