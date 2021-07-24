@@ -287,7 +287,7 @@ nav a::before {
   overflow-y: scroll;
   position: relative;
   width: 80%;
-  height: 80%;
+  height: 94%;
   left: 20%;
   top: 10%;
 }
@@ -653,7 +653,7 @@ nav a::before {
 	transform: translateY(-220%);
   }
   .logo {
-    height: 12.4% !important;
+    height: 12.3% !important;
     width: 20% !important;
   }
   .logo h1 {
