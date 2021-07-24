@@ -653,7 +653,7 @@ nav a::before {
 	transform: translateY(-220%);
   }
   .logo {
-    height: 12.3% !important;
+    height: 100px !important;
     width: 20% !important;
   }
   .logo h1 {
