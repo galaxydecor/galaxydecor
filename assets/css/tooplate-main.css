@@ -5,7 +5,9 @@ Tooplate 2113 Earth
 https://www.tooplate.com/view/2113-earth
 
 */
-
+html {
+height: 100%;
+}
 @keyframes seq-preloader {
   50% {
     opacity: 1;
