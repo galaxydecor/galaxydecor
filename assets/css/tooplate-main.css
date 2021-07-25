@@ -7,6 +7,7 @@ https://www.tooplate.com/view/2113-earth
 */
 html {
 height: 100%;
+min-height: -webkit-fill-available;
 }
 @keyframes seq-preloader {
   50% {
@@ -160,7 +161,7 @@ html {
 body {
   overflow: hidden;
   font-size: 100%;
-  max-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 nav {
@@ -273,6 +274,7 @@ nav a::before {
 }
 .slides {
   width: 500vw;
+min-height: -webkit-fill-available;
   height: 100vh;
   -webkit-transition: -webkit-transform 0.8s ease;
   transition: -webkit-transform 0.8s ease;
